@@ -1,0 +1,11 @@
+# Browser cache data
+/cache/
+
+# icon Image
+/icon.jpg
+
+# Log data
+/logger.log
+
+# Config File
+/config.ini

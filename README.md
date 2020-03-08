@@ -2,13 +2,13 @@
    <a href="https://yay.space/">
       <img src="Yay-logo.jpg" width="10%" alt="Yay_BtCl" />
    </a>
-  <h1 align="center">Yay_BtCl</h1>
+  <h1 align="center">Yay_BtCl_DB</h1>
 </p>
 
 <p align="center">
-      <a href="https://travis-ci.com/TanakashiXr/Yay_BtCl"><img alt="Build Status" src="https://travis-ci.com/TanakashiXr/Yay_BtCl.svg?token=hQziw2chDyu4Ysu1ptd9&branch=master" /></a>
-      <a href="https://github.com/TanakashiXr/Yay_BtCl"><img alt="release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/TanakashiXr/Yay_BtCl?include_prereleases" /></a>
-      <a href="https://github.com/TanakashiXr/Yay_BtCl/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/badge/License-MIT%20License-blue.svg" /></a>
+      <a href="https://travis-ci.com/TanakashiXr/Yay_BtCl_DB"><img alt="Build Status" src="https://travis-ci.com/TanakashiXr/Yay_BtCl_DB.svg?token=hQziw2chDyu4Ysu1ptd9&branch=master" /></a>
+      <a href="https://github.com/TanakashiXr/Yay_BtCl_DB"><img alt="release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/TanakashiXr/Yay_BtCl_DB?include_prereleases" /></a>
+      <a href="https://github.com/TanakashiXr/Yay_BtCl_DB/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/badge/License-MIT%20License-blue.svg" /></a>
       <a href="https://www.python.org/downloads/"><img alt="Supported python versions: 3.x.x" src="https://img.shields.io/badge/Python-3.x.x-green.svg" /></a>
 </p>
 
@@ -36,8 +36,8 @@ Please install Python3 by yourself. Subsequent construction can be performed aut
 Download and unzip this source code.
 Install Selenium.
 ```sh
-$ git clone https://github.com/TanakashiXr/Yay_BtCl.git
-$ cd Yay_BtCl
+$ git clone https://github.com/TanakashiXr/Yay_BtCl_DB.git
+$ cd Yay_BtCl_DB
 $ python setup.py
 ```
 
@@ -48,14 +48,12 @@ Edit according to your environment.
 ```sh
 $ cp config_template.ini config.ini
 $ vi config.ini
-$ python auto_clicker.py
+$ python yay_db.py
 ```
 
 ## Features / 機能
 
-* 自動いいね
-* 自動レター
-* 半ボット
+* ユーザー情報を取得してデータベースへ登録
 
 ## Author / 作者
 
