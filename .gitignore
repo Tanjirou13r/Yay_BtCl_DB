@@ -1,9 +1,6 @@
 # Browser cache data
 /cache/
 
-# icon Image
-/icon.jpg
-
 # Log data
 /logger.log
 
